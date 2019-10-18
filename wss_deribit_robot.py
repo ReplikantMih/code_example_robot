@@ -11,7 +11,7 @@ class Robot:
     def __init__(self):
         self.api_link = 'wss://test.deribit.com/ws/api/v2'
         self.key = ''
-        self.secret = 'MfXk5OT-'
+        self.secret = ''
         self.symbol = 'BTC-PERPETUAL'
         self.iteration_wait = 5  # Пауза между итерациями, sec.
         self.log_path = 'wss_deribit_robot_log.txt'  # Путь до файла с логами.
